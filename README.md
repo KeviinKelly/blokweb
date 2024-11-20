@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://praktijkaurelius.nl
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home-pagina
-  <img src="readme-images/home-pagina.png" width="375px" alt="Landing page van de herenafdeling">
+  <img src="readme-images/home-pagina.png" width="375px" alt="Home-pagina van de website van praktijk Aurelius">
 
   #### Screenshot(s) van de tweede pagina (small screen):
 Team
-  <img src="readme-images/team.png" width="375px" alt="Pagina voor schoenen van de herenafdeling">
+  <img src="readme-images/team.png" width="375px" alt="Pagina van de team di bij praktijk Aurelius werken">
  
 </details>
 
@@ -64,13 +64,13 @@ Team
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Page-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamisch deel.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">*
 
 </details>
 
