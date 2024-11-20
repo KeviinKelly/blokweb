@@ -33,14 +33,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.zalando.nl
+  https://praktijkaurelius.nl
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Heren home 
-  <img src="readme-images/herenhome.png" width="375px" alt="Landing page van de herenafdeling">
+  Home-pagina
+  <img src="readme-images/home-pagina.png" width="375px" alt="Landing page van de herenafdeling">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-Herenschoenen
-  <img src="readme-images/herenschoenen.png" width="375px" alt="Pagina voor schoenen van de herenafdeling">
+Team
+  <img src="readme-images/team.png" width="375px" alt="Pagina voor schoenen van de herenafdeling">
  
 </details>
 
