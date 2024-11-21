@@ -33,6 +33,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
+  <p> Ik wou eerst de website van Zalando doen, maar aangezien ik nooit code heb gehad (ik kom van Hogeschool Utrecht), dacht ik dat ik misschien beter een iets makkelijkere website kan kiezen. Anders wordt het een te grote uitdaging en raak ik gedemotiveerd. Als alternatief heb ik deze website gekozen:</p>
   https://praktijkaurelius.nl
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home-pagina
