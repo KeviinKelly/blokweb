@@ -1,0 +1,234 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+	--color-border: #e1c768;
+	--color-turquiose: #a5ceb9;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+
+/*******************/
+/* Off-screen menu */
+/* youtube video*/
+/*******************/
+
+.off-screen-menu {
+	background-color: var(--color-background);
+    height: 100vh;
+    width: 100%;
+    max-width: 650px;
+    position: fixed;
+    top: 0;
+    right: -650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	text-align: right;
+    font-size: 1rem;
+    transition: .3s ease; 
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+/*************/
+/* NAVIGATIE */
+/*************/
+
+nav {
+	
+	padding: 1rem;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav img{
+	height: 50px;
+	width:auto;
+	margin-right: 100px;
+}
+
+/******************/
+/* Hamburger menu */
+/******************/
+
+
+.ham-menu {
+    height: 50px;
+    width: 33px;
+    position: relative;
+}
+
+.ham-menu span {
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-turquiose);
+    border-radius: 25px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    transition: .3s ease;
+	transform-origin: 0;
+}
+
+/**********************/
+/* spatie tussen spans*/
+/**********************/
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+/********************************/
+/* Om de vorm van een X te maken*/
+/********************************/
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+	rotate:45deg;
+	
+}
+
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+	rotate:-45deg;
+	
+}
+
+/********************/
+/* List in ham menu*/
+/* zit in de header voor de off.page functie*/
+/********************/
+header ul{
+	list-style: none;
+	line-height: 1.75rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: thin;
+	
+}
+/*hulp van assistent*/
+li a {
+	text-decoration: none;
+	color: var(--color-text);
+	cursor: pointer;
+
+}
+
+/*header*/
+/*Sabrina heeft mij geholpen*/
+header{
+	position: fixed;
+	width: 100vw;
+	top:0;
+	z-index: 1;
+}
+
+/**************************/
+/* section locatie utrecht*/
+/**************************/
+
+section h2{
+	margin: 1rem;
+	padding: 1rem;
+	width: 288px;
+	background-color: #e1c768;
+	position: sticky;
+	top: 3em;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+/*********************/
+/*Alle 'p' in mn html*/
+/*********************/
+p{
+	font-family: sans-serif;
+}
+
+
+
+/********************/
+/*Alle h3 in mn html*/
+/********************/
+
+h3{
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+/*******************************************************/
+/*vormgeving body (flex) omdat het de mobile versie is */
+/*Geholpen door assistent */
+/*******************************************************/
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+/*bento box oefening*/
+img{
+	width: 100%;
+}
+
+
+section article{
+	display: flex; 
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1em;
+	width: 18em;
+	height:	60svh;
+	border:var(--color-border) solid 1px;
+
+	
+}
+body > article {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1em;
+	width: 100%;
+	background: var(--color-border);
+}
+

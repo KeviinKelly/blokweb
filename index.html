@@ -1,59 +1,109 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Praktijk Aurelius</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+    <title>Team Aurelius</title>
+
+    <link href="styles/style-contact.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<header>
-	<nav>
-		<img class="pa-logo" src="images/Logo-Praktijk-Aurelius-120.png" alt="Logo van Praktijk Aurelius"> 
-		<button class="dree streepjes" ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-			<svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-			<path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-			<path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-			</svg> </button>
-		<ul>
-			<li><a href="/"></a> home</li>
-			<li><a href="/"></a>over ons</li>
-			<li><a href="/team.html"></a>team</li> 
-			<li><a href="/"></a>nascholing</li>
-			<li><a href="/"></a>kwaliteit</li>
-			<li><a href="/"></a>privacy</li>
-			<li><a href="/"></a>therapie</li>
-			<li><a href="/"></a>psychische klachten</li>
-			<li><a href="/"></a>behandelaanbod</li>
-			<li><a href="/"></a>tarieven en vergoeding</li>
-			<li><a href="/"></a>aanmeldprocedure</li>
-			<li><a href="/"></a>wachttijden</li>
-			<li><a href="/"></a>folders</li>
-			<li><a href="/"></a>trauma & identiteit</li>
-			<li><a href="/"></a>coaching</li>
-			<li><a href="/"></a>verwijzers</li>
-			<li><a href="/"></a>contact</li>
-			<li><a href="/"></a>contactformulier</li>
-			<li><a href="/"></a>clientportaal</li>
-			<li><a href="/"></a>veelgestelde vragen</li>
-		</ul>
-	</nav>
-</header>
 
 <body>
-	<img src="images/Gezicht-voor-op-voorpagina.jpg" alt="welcoming picture">
-		<blockquote>'Alles wat we zien is een perspectief, niet de waarheid'</blockquote>
-			<p>Marcus Aurelius</p>
-	<h1> Praktijk Aurelius</h1>
-		<p>optimistisch - onderzoekend - vanuit vertrouwen</p>
+    <header>
+   	 <div class="off-screen-menu">
+		<ul>
+		<li><a href="/">Home</a></li>
+        <li><a href="/">Over Ons</a></li>
+        <li><a href="/team.html">Team</a></li>
+        <li><a href="/">Nascholing</a></li>
+        <li><a href="/">Kwaliteit</a></li>
+        <li><a href="/">Privacy</a></li>
+        <li><a href="/">Therapie</a></li>
+        <li><a href="/">Psychische Klachten</a></li>
+        <li><a href="/">Behandelaanbod</a></li>
+        <li><a href="/">Tarieven en Vergoeding</a></li>
+        <li><a href="/">Aanmeldprocedure</a></li>
+        <li><a href="/">Wachttijden</a></li>
+        <li><a href="/index.html">contact</a></li>
+		</ul>
+    </div>
 
-	<script defer src="scripts/script.js"></script>
-</body>
+    	<nav>
+		
+			<img src="images/Logo-Praktijk-Aurelius-120.png" alt="contactpagina van Praktijk Aurelius"> 
+		
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+		</nav>
+	</header>
+
+
+	<main>
+	<article> 
+		<h1>Contact</h1>
+		<p>Praktijk Aurelius is een kleine zorginstelling voor psychotherapie. Wij hebben twee locaties in Utrecht: locatie Roode Brug en locatie Lepelenburg. Onze locatie Trauma & Identiteit is gevestigd in Maarn, op de Utrechtse Heuvelrug.</p>
+		</article>
+		
 	
+		<article>
+		<img src="images/Foto-Labor-website.jpg" alt="foto van locatie Labor in Utrecht">
+		</article>
+	
+		<article>
+		<h2>contactformulier</h2>
+		<p>Stuur een bericht naar Praktijk Aurelius.
+			Wij nemen binnen 2 werkdagen contact met u op. Let op: Indien u zich wilt aanmelden bij Praktijk Aurelius kunt u een email met verwijsbrief sturen naar <a>info@praktijkaurelius.nl.</a></p>
+		</article>
+	
+		<form action="https://praktijkaurelius.nl" autofill>
+		<fieldset>
+		  <legend> vraag </legend>
+		  <label for="naam">Naam</label>
+		  <input id="name" required type="text">
+	  
+		  <label for="achternaam">Achternaam</label>
+		  <input id="surname" required type="text">
+		  
+	
+		  <label for="mail" >E-mail</label>
+		  <input id="mail" type="email" required>  
+	
+		  <label for="telefoon" >Telefoonnummer</label>
+		  <input id="telefoon" type="number" required>  
+	
+		  <label for="Insurance" >Zorgverzekeraar</label>
+		  <input id="Insurance" type="text" required>  
+	
+		  <label for="message" >Uw bericht</label>
+		  <input id="Insurance" type="text" required>  
+		  <p class="feedback">bevestigd</p>
+		  <button>Verzenden</button>
+		</fieldset>
+	  </form>
+	</main>	
+
+	<div class="line"></div>
+
+	<footer>
+		
+		<img src="images/grayscale-photography-of-woman-standing-on-seashore-2174609-scaled-e1579122902170.jpg" alt="foto">
+		
+
+		<img src="images/Logo-Praktijk-Aurelius-120.png" alt="Einde van de pagina er zijn meer links hier beneden.">
+		<p>© Copyright 2024   |   Praktijk Aurelius   |   All Rights Reserved   | </p>
+		
+	</footer>
+
+</body>
+
+<script src="scripts/script.js"></script>
 </html>
